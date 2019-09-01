@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hi, I'm Jingbo
-subtitle: PhD student, CS@ILLINOIS
+title: Hi, I'm Anqing
+subtitle: PhD student, Psychology@ILLINOIS
 bigimg: ["/img/01.jpg", "/img/02.JPG", "/img/03.jpg", "/img/banner.JPG", "/img/04.JPG", "/img/05.jpg", "/img/06.JPG", "/img/07.JPG", "/img/09.jpg", "/img/10.jpg", "/img/11.jpg", "/img/12.jpg"]
 use-site-title: true
 ---
