@@ -1,7 +1,9 @@
 ---
 layout: page
-title: 
-permalink: /about/
+title: Hi, I'm Jingbo
+subtitle: PhD student, CS@ILLINOIS
+bigimg: ["/img/01.jpg", "/img/02.JPG", "/img/03.jpg", "/img/banner.JPG", "/img/04.JPG", "/img/05.jpg", "/img/06.JPG", "/img/07.JPG", "/img/09.jpg", "/img/10.jpg", "/img/11.jpg", "/img/12.jpg"]
+use-site-title: true
 ---
 
 <p align="center">
@@ -12,7 +14,7 @@ permalink: /about/
 </p>
 
 
-# <center>Short Bio</center>
+#<center>Short Bio</center>
 
 I am a final-year Ph.D. student in Prof. [Jiawei Han](http://hanj.cs.illinois.edu/)'s [Data Mining Group](http://dm1.cs.uiuc.edu/) at [CS@Illinois](https://cs.illinois.edu/), and a [Google PhD Fellow](https://ai.google/research/outreach/phd-fellowship). I received my B.E. from Computer Science Department, Shanghai Jiao Tong Univ. (SJTU), China, where I was a member of the 2010 [ACM Honored class](http://acm.sjtu.edu.cn/), now part of Zhiyuan College in SJTU. 
 
