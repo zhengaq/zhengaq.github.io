@@ -1,0 +1,15 @@
+# IDEs
+.idea/
+
+# Hugo
+resources/
+public/
+
+# Disabled Contents
+admin/
+talk/
+authors/
+blog/
+honor/
+!authors/anqing-zheng/avator*
+categories/

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Propagation | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/propagation/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/propagation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Propagation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Propagation</title>
+      <link>https://liyuanlucasliu.github.io/tags/propagation/</link>
+    </image>
+    
+    <item>
+      <title>Graph Clustering with Dynamic Embedding</title>
+      <link>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Detection Based on Structure and Content: A Content Propagation Perspective</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-community-2015/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-community-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

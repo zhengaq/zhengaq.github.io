@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/network/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <description>Network</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Network</title>
+      <link>https://liyuanlucasliu.github.io/tags/network/</link>
+    </image>
+    
+    <item>
+      <title>NetTaxo: Automated Topic Taxonomy Construction from Large-Scale Text-Rich Network</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-nettaxo-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-nettaxo-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructing and Mining Heterogeneous Information Networks from Massive Text</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contrast Subgraph Mining from Coherent Cores</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Clustering with Dynamic Embedding</title>
+      <link>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/yang-graph-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

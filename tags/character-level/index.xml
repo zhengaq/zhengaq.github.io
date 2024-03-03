@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Character-level | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/character-level/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/character-level/index.xml" rel="self" type="application/rss+xml" />
+    <description>Character-level</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Character-level</title>
+      <link>https://liyuanlucasliu.github.io/tags/character-level/</link>
+    </image>
+    
+    <item>
+      <title>Empower Sequence Labeling with Task-Aware Neural Language Model</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

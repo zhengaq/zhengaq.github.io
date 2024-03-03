@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zotero | Anqing Zheng</title>
+    <link>https://zhengaq.github.io/tags/zotero/</link>
+      <atom:link href="https://zhengaq.github.io/tags/zotero/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zotero</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Anqing Zheng</copyright><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhengaq.github.io/img/avatar.jpg</url>
+      <title>Zotero</title>
+      <link>https://zhengaq.github.io/tags/zotero/</link>
+    </image>
+    
+    <item>
+      <title>Zotero, Importing from Mendeley</title>
+      <link>https://zhengaq.github.io/blog/2020-02-zotero/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/blog/2020-02-zotero/</guid>
+      <description>&lt;p&gt;Since I need a router to turn the printer (gift from 
+&lt;a href=&#34;https://shangjingbo1226.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jingbo&lt;/a&gt;) into a internet printer, I did some research on cheap-but-powerful routers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K3C costs about &lt;strong&gt;30$&lt;/strong&gt; but performs like a &lt;strong&gt;200$&lt;/strong&gt; router.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Upgrading to the un-official firearm is highly recommended, which unlocks tons of features, including Ads-blocking, USB-printer, etc.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://blog.iytc.net/wordpress/?p=2841#comments&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A nice tutorial is available in Chinese&lt;/a&gt;.
+However, no available tutorial is for K3C-international (i.e., can be brought from U.S.).
+After some tiny-little explorations, I successfully finished the upgrade.
+Here are some notes based on my experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrading to unofficial versions is risky; all operations are at your own risk;&lt;/li&gt;
+&lt;li&gt;the version number of international-K3C firearm is in a different serial (from the tutorial), so ignore all version information in the tutorial;&lt;/li&gt;
+&lt;li&gt;update the official firearm to the latest version, and then do the upgrade (I did this and it worked for me);&lt;/li&gt;
+&lt;li&gt;after upgrade to unofficial 1.1, please go ahead and upgrade to unofficial 1.6 (1.7 is not very stable and not recommended);&lt;/li&gt;
+&lt;li&gt;you need a windows pc for the upgrade&amp;hellip; (based on the tutorial);&lt;/li&gt;
+&lt;li&gt;some links in the tutorial page is outdated, please find the files as below:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Necessary files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhengaq.github.io/files/blog-k3c/telnet.zip&#34; target=&#34;_blank&#34;&gt;Telnet Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhengaq.github.io/files/blog-k3c/k3c_v11.tar.gz&#34; target=&#34;_blank&#34;&gt;V1.1 Firearm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhengaq.github.io/files/blog-k3c/k3c_v16.zip&#34; target=&#34;_blank&#34;&gt;V1.6 Firearm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

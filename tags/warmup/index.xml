@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warmup | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/warmup/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/warmup/index.xml" rel="self" type="application/rss+xml" />
+    <description>Warmup</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Warmup</title>
+      <link>https://liyuanlucasliu.github.io/tags/warmup/</link>
+    </image>
+    
+    <item>
+      <title>On the Variance of the Adaptive Learning Rate and Beyond</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-radam-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-radam-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

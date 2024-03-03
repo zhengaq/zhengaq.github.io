@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Behavioral Genetic | Anqing Zheng</title>
+    <link>https://zhengaq.github.io/tags/behavioral-genetic/</link>
+      <atom:link href="https://zhengaq.github.io/tags/behavioral-genetic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Behavioral Genetic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Anqing Zheng</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhengaq.github.io/img/avatar.jpg</url>
+      <title>Behavioral Genetic</title>
+      <link>https://zhengaq.github.io/tags/behavioral-genetic/</link>
+    </image>
+    
+    <item>
+      <title>Kids becoming less alike: A behavioral genetic analysis of developmental increases in personality variance from childhood to adolescence</title>
+      <link>https://zhengaq.github.io/publication/mottus-kids-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/mottus-kids-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

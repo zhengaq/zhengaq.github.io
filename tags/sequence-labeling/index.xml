@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sequence Labeling | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/sequence-labeling/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/sequence-labeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sequence Labeling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Sequence Labeling</title>
+      <link>https://liyuanlucasliu.github.io/tags/sequence-labeling/</link>
+    </image>
+    
+    <item>
+      <title>Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-efficient-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-efficient-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empower Sequence Labeling with Task-Aware Neural Language Model</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

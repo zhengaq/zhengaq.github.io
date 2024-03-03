@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HNS | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/hns/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/hns/index.xml" rel="self" type="application/rss+xml" />
+    <description>HNS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>HNS</title>
+      <link>https://liyuanlucasliu.github.io/tags/hns/</link>
+    </image>
+    
+    <item>
+      <title>NextCloud Docker Setup</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-nextcloud/</guid>
+      <description>&lt;p&gt;I set up a disk station, deployed NextCloud as my personal cloud, and found it to be a full-service dropbox, which costs only ~20$ / Gb.
+To be bug free&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-docker-compose.yml&#34;&gt;version: &#39;3.2&#39;
+services:
+  nextcloud:
+    image: nextcloud
+    container_name: nextcloud
+    restart: always
+    networks:
+      - net
+    ports:
+      - 3222:80
+    labels:
+      - &amp;quot;traefik.docker.network=net&amp;quot;
+      - &amp;quot;traefik.enable=true&amp;quot;
+      - &amp;quot;traefik.backend=nextcloud&amp;quot;
+      - &amp;quot;traefik.port=80&amp;quot;
+      - &amp;quot;traefik.protocol=http&amp;quot;
+      - &amp;quot;traefik.frontend.rule=Host:realsix.synology.me&amp;quot;
+      - &amp;quot;traefik.frontend.headers.customResponseHeaders=Strict-Transport-Security:15552000&amp;quot;
+      - &amp;quot;traefik.frontend.passHostHeader=true&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.permanent:true&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.regex:https://(.*)/.well-known/(card|cal)dav&amp;quot;
+      - &amp;quot;traefik.frontend.redirect.replacement:https://$$1/remote.php/dav/&amp;quot;
+    depends_on:
+      - nextcloud_db
+    volumes:
+      - /volume1/docker/nc/nextcloud:/var/www/html
+      - /volume1/docker/nc/config:/var/www/html/config
+      - /volume1/docker/nc/data:/var/www/html/data
+      - /volume1/homes/llychinalz/old_projects:/var/www/html/data/llychinalz/files/0_old
+      - /volume1/homes/llychinalz/data:/var/www/html/data/llychinalz/files/0_data
+      - /volume1/docker/nc/themes:/var/www/html/themes
+    environment:
+      - &amp;quot;MYSQL_HOST=nextcloud_db&amp;quot;
+      - &amp;quot;NEXTCLOUD_TRUSTED_DOMAINS=realsix.synology.me&amp;quot;
+      - &amp;quot;REDIS_HOST=nextcloud_redis&amp;quot;
+    depends_on:
+      - nextcloud_db
+      - redis
+
+  nextcloud_db:
+    image: mariadb
+    container_name: nextcloud_db
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    restart: always
+    networks:
+      - net
+    volumes:
+      - /volume1/docker/nc/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=&amp;quot;Lly_940410&amp;quot;
+      - MYSQL_PASSWORD=&amp;quot;Lly_940410&amp;quot;
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+
+  redis:
+    image: redis
+    container_name: nextcloud_redis
+    networks:
+      - net
+
+  cron:
+    image: nextcloud
+    container_name: nextcloud_cron
+    restart: always
+    networks:
+      - net
+    volumes:
+      - /volume1/docker/nc/nextcloud:/var/www/html
+    entrypoint: /cron.sh
+    depends_on:
+      - nextcloud_db
+      - redis
+
+volumes:
+  nextcloud:
+  nextcloud_db:
+  nextcloud_cron:
+
+networks:
+  net:
+    external: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To speed up sync, I use &lt;code&gt;sudo -u www-data php occ files:scan --path &amp;quot;llychinalz/files/...&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>They really give me ~700$ for free...</title>
+      <link>https://liyuanlucasliu.github.io/blog/2020-03-hns/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/blog/2020-03-hns/</guid>
+      <description>&lt;p&gt;The handshake organization donated &lt;strong&gt;$10.2MM&lt;/strong&gt; and is giving away &lt;strong&gt;free&lt;/strong&gt; HNS (can be exchanged into BTC). I tried it my self, and got &lt;strong&gt;~700$&lt;/strong&gt; for free (except an unused ssh key).&lt;/p&gt;
+&lt;p&gt;The tutorial is available at: 
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/108215705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu&lt;/a&gt;.
+I would recommend you to use an out-dated ssh key for verification (I&amp;rsquo;m using one from DM2, which has not been used for more than 6 months, according to Github).
+I delete that key after this process and generate a new one.&lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For error message &lt;code&gt;gyp: No Xcode or CLT version detected!&lt;/code&gt;, &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
+&lt;li&gt;For error message &lt;code&gt;Xcode-select: error: invalid developer directory...&lt;/code&gt;, directly delete the directory and run &lt;code&gt;xcode-select --install&lt;/code&gt; works for me.&lt;/li&gt;
+&lt;li&gt;I set fee to &lt;code&gt;0.1&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- - If you want to use okex as the bitcoin wallet, here is my referral link: [okex](https://www.okex.com/join/1881643) (you can use it to cash out to your mainland account). 
+ --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

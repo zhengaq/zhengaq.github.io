@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Anqing Zheng</title>
+    <link>https://zhengaq.github.io/publication_types/3/</link>
+      <atom:link href="https://zhengaq.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Anqing Zheng</copyright><lastBuildDate>Fri, 01 Jan 1019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhengaq.github.io/img/avatar.jpg</url>
+      <title>3</title>
+      <link>https://zhengaq.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Genetic and environmental architecture of Conscientiousness in adolescence: Grit is aetiologically a facet of Conscientiousness</title>
+      <link>https://zhengaq.github.io/publication/takahashi-grit-2020/</link>
+      <pubDate>Fri, 01 Jan 1019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/takahashi-grit-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subtle differences make a difference: Incremental validity of character measures over and above the Big Five Inventory</title>
+      <link>https://zhengaq.github.io/publication/zheng-increment-2020/</link>
+      <pubDate>Mon, 01 Jan 1010 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/zheng-increment-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

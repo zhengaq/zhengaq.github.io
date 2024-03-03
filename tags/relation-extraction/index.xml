@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Relation Extraction | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/relation-extraction/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/relation-extraction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Relation Extraction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Relation Extraction</title>
+      <link>https://liyuanlucasliu.github.io/tags/relation-extraction/</link>
+    </image>
+    
+    <item>
+      <title>Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction</title>
+      <link>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Relation Cross-Bag Attention for Distantly-Supervised Relation Extraction</title>
+      <link>https://liyuanlucasliu.github.io/publication/yuan-cross-relation-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/yuan-cross-relation-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

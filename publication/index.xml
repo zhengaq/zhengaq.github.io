@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Anqing Zheng</title>
+    <link>https://zhengaq.github.io/publication/</link>
+      <atom:link href="https://zhengaq.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Anqing Zheng</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhengaq.github.io/img/avatar.jpg</url>
+      <title>Publications</title>
+      <link>https://zhengaq.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Genetic and environmental influences on achievement goal orientations shift with age</title>
+      <link>https://zhengaq.github.io/publication/zheng-genetic-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/zheng-genetic-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kids becoming less alike: A behavioral genetic analysis of developmental increases in personality variance from childhood to adolescence</title>
+      <link>https://zhengaq.github.io/publication/mottus-kids-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/mottus-kids-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National gross domestic product, science interest, and science achievement: A direct replication and extension of the Tucker-Drob, Cheung, and Briley (2014) study</title>
+      <link>https://zhengaq.github.io/publication/zheng-national-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/zheng-national-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic and environmental architecture of Conscientiousness in adolescence: Grit is aetiologically a facet of Conscientiousness</title>
+      <link>https://zhengaq.github.io/publication/takahashi-grit-2020/</link>
+      <pubDate>Fri, 01 Jan 1019 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/takahashi-grit-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subtle differences make a difference: Incremental validity of character measures over and above the Big Five Inventory</title>
+      <link>https://zhengaq.github.io/publication/zheng-increment-2020/</link>
+      <pubDate>Mon, 01 Jan 1010 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/publication/zheng-increment-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

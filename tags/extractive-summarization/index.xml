@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extractive Summarization | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/extractive-summarization/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/extractive-summarization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Extractive Summarization</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Extractive Summarization</title>
+      <link>https://liyuanlucasliu.github.io/tags/extractive-summarization/</link>
+    </image>
+    
+    <item>
+      <title>Facet-Aware Evaluation for Extractive Text Summarization</title>
+      <link>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/mao-facet-aware-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

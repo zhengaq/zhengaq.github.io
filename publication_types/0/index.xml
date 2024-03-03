@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/publication_types/0/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>0</title>
+      <link>https://liyuanlucasliu.github.io/publication_types/0/</link>
+    </image>
+    
+    <item>
+      <title>Constructing and Mining Heterogeneous Information Networks from Massive Text</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-constructing-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

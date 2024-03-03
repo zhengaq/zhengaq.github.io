@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selected | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/selected/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/selected/index.xml" rel="self" type="application/rss+xml" />
+    <description>Selected</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Selected</title>
+      <link>https://liyuanlucasliu.github.io/tags/selected/</link>
+    </image>
+    
+    <item>
+      <title>On the Variance of the Adaptive Learning Rate and Beyond</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-radam-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-radam-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CrossWeigh: Training Named Entity Tagger from Imperfect Annotations</title>
+      <link>https://liyuanlucasliu.github.io/publication/wang-crossweigh-2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/wang-crossweigh-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction</title>
+      <link>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/ye-looking-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-efficient-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-efficient-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Named Entity Tagger using Domain-Specific Dictionary</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-learning-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-learning-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empower Sequence Labeling with Task-Aware Neural Language Model</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-empower-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach</title>
+      <link>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/liu-heterogeneous-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

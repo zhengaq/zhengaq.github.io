@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Machine | Anqing Zheng</title>
+    <link>https://zhengaq.github.io/tags/time-machine/</link>
+      <atom:link href="https://zhengaq.github.io/tags/time-machine/index.xml" rel="self" type="application/rss+xml" />
+    <description>Time Machine</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Anqing Zheng</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhengaq.github.io/img/avatar.jpg</url>
+      <title>Time Machine</title>
+      <link>https://zhengaq.github.io/tags/time-machine/</link>
+    </image>
+    
+    <item>
+      <title>How to Save You (Make You Fast), Time Machine</title>
+      <link>https://zhengaq.github.io/blog/2020-02-tm/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://zhengaq.github.io/blog/2020-02-tm/</guid>
+      <description>&lt;p&gt;Last night, my Macbook Pro 2015 broke from an unsuccessful program install and could not start up. &lt;strong&gt;Time machine saves me&lt;/strong&gt;, &lt;strong&gt;again&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Data is priceless and duplication is the only way to protect it.
+Time Machine is a useful program, however, its speed could be deadly slow if you are using a remote storage (instead of directly connected via usb or other cable).&lt;/p&gt;
+&lt;p&gt;After many trial and error attempts, my current solution is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use 
+&lt;a href=&#34;https://nextcloud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NextCloud&lt;/a&gt; to sync codes, images, and other non-application non-system files. If you are also a Synology user, this platform is much better than Drive 2.0;&lt;/li&gt;
+&lt;li&gt;use Time Machine to backup only system files and applications, with the speed-up setting as below (use the &lt;strong&gt;SMB&lt;/strong&gt; protocol instead of the &lt;strong&gt;AFP&lt;/strong&gt; protocol for Synology).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Even only a small portion of my files (~100 Gb) is handled by Time Machine, they could be a very slow 100 Gb without speeding up.
+The reason is the system sets an upper bound on the performance of Time Machine by default.
+Running the following code would save you tons of time:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sysctl debug.lowpri_throttle_enabled=0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can change it back after the first &amp;amp; major backups with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sysctl debug.lowpri_throttle_enabled=1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

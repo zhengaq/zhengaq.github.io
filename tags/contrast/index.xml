@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contrast | Liyuan Liu</title>
+    <link>https://liyuanlucasliu.github.io/tags/contrast/</link>
+      <atom:link href="https://liyuanlucasliu.github.io/tags/contrast/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contrast</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Liyuan Liu</copyright><lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://liyuanlucasliu.github.io/img/avatar.jpg</url>
+      <title>Contrast</title>
+      <link>https://liyuanlucasliu.github.io/tags/contrast/</link>
+    </image>
+    
+    <item>
+      <title>Contrast Subgraph Mining from Coherent Cores</title>
+      <link>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://liyuanlucasliu.github.io/publication/shang-contrast-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
